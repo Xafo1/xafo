@@ -1,0 +1,43 @@
+
+body {
+    background-color:#171717;
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    position: fixed;
+}
+.navbar {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 40px 70px 40px 150px;
+    background-color: red;
+    
+    
+    
+}
+.brand-title {
+    font: 1.5rem;
+    margin:.5rem;
+
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.navbar-links li {
+    list-style: none;
+   
+
+}
+.navbar-links li a { 
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
